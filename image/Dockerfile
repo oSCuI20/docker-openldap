@@ -1,6 +1,5 @@
-# Use osixia/light-baseimage
 # sources: https://github.com/osixia/docker-light-baseimage
-FROM osixia/light-baseimage:1.3.2
+FROM debian:bullseye-slim
 
 ARG OPENLDAP_PACKAGE_VERSION=2.4.57
 
